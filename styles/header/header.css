@@ -1,0 +1,7 @@
+.header {
+    width: 68vw;
+    padding-top: 4.7vw;
+    margin: 0 auto 2vw;
+    display: flex;
+    justify-content: flex-end;
+}
