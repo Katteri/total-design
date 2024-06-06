@@ -5,3 +5,8 @@
 @import url(intro/intro.css);
 @import url(intro/description/intro__description.css);
 @import url(intro/logo/intro__logo.css);
+@import url(about/about.css);
+@import url(about/title/about__title.css);
+@import url(about/image/about__image.css);
+@import url(about/text/about__text.css);
+@import url(text/text.css);

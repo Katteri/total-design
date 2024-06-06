@@ -1,0 +1,11 @@
+.about {
+    width: 61vw;
+    margin: 0 auto;
+    padding-bottom: 5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 5.7vw 1fr;
+    grid-template-areas:
+        "title title"
+        "img text";
+}

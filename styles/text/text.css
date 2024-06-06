@@ -1,0 +1,7 @@
+.text {
+    margin: 0;
+}
+
+.text:last-of-type {
+    color: #E57E9E;
+}

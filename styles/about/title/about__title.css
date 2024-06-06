@@ -1,0 +1,11 @@
+.about__title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.7vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    color: #E57E9E;
+    grid-area: title;
+}
