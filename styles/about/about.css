@@ -1,7 +1,7 @@
 .about {
     width: 61vw;
     margin: 0 auto;
-    padding-bottom: 5vw;
+    padding-bottom: 6.3vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 5.7vw 1fr;

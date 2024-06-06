@@ -10,3 +10,8 @@
 @import url(about/image/about__image.css);
 @import url(about/text/about__text.css);
 @import url(text/text.css);
+@import url(text/color/text_color-pink.css);
+@import url(approach/approach.css);
+@import url(approach/title/approach__title.css);
+@import url(approach/item/approach__item.css);
+@import url(text/list/text_list.css);

@@ -1,14 +1,4 @@
 .about__text {
     margin: auto 0;
     padding-left: 2vw;
-    width: 28vw;
-    line-height: 1.3vw;
-    font-size: .91vw;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: -0.3px;
-    color: #128159;
-    display: grid;
-    gap: 1.2vw;
 }
