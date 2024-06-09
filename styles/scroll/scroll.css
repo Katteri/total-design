@@ -1,0 +1,12 @@
+.scroll {
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.scroll::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}

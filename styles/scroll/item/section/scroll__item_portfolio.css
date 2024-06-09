@@ -1,0 +1,12 @@
+.scroll__item_portfolio {
+    height: 20vw;
+    border-radius: 2vw;
+}
+
+.scroll__item_portfolio:first-of-type {
+    margin-left: 19.5vw;
+}
+
+.scroll__item_portfolio:nth-of-type(2n) {
+    margin: 0 .8vw;
+}

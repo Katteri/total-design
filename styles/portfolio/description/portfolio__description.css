@@ -1,0 +1,11 @@
+.portfolio__description {
+    margin: 0;
+    width: 61vw;
+    text-align: center;
+    font-size: 1.8vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.05vw;
+    color: #128159;    
+}
