@@ -1,0 +1,7 @@
+.steps__item {
+    margin: 2.5vw 0;
+}
+
+.steps__item:first-of-type {
+    margin-top: 4.5vw;
+}

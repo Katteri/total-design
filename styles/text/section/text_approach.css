@@ -1,0 +1,7 @@
+.text_approach {
+    margin: 1.2vw 0;
+    line-height: 1.3vw;
+    font-size: .91vw;
+    display: grid;
+    gap: 1.2vw;
+}

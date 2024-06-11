@@ -2,8 +2,6 @@
     list-style-type: none;
     padding: 0;
     counter-reset: my-counter;
-    display: grid;
-    gap: 1.2vw;
 }
 
 li::before {

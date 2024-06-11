@@ -1,0 +1,4 @@
+.title_steps {
+    grid-area: title;
+    align-self: end;
+}
