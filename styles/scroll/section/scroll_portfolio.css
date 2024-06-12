@@ -2,6 +2,6 @@
     margin: 2.8vw 0 4.3vw;
     height: 20vw;
     width: 100vw;
-    left: -19.5vw;
+    left: calc((98% - 100vw) / 2);
     position: relative;
 }

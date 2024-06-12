@@ -1,0 +1,7 @@
+.price-card__step {
+    margin: .35vw 0 0;
+}
+
+.price-card__step:first-of-type {
+    margin: 0;
+}

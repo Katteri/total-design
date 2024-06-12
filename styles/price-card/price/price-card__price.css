@@ -1,0 +1,6 @@
+.price-card__price {
+    grid-area: price;
+    font-size: 1.1vw;
+    margin: 0;
+    align-self: end;
+}

@@ -31,3 +31,13 @@
 @import url(steps/item/steps__item.css);
 @import url(steps/image/steps__image.css);
 @import url(text/section/text_steps.css);
+@import url(service/service.css);
+@import url(title/section/title_service.css);
+@import url(scroll/section/scroll_service.css);
+@import url(price-card/price-card.css);
+@import url(price-card/title/price-card__title.css);
+@import url(price-card/pack/price-card__pack.css);
+@import url(price-card/time/price-card__time.css);
+@import url(price-card/text/price-card__text.css);
+@import url(price-card/step/price-card__step.css);
+@import url(price-card/price/price-card__price.css);

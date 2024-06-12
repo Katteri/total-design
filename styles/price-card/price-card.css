@@ -1,0 +1,15 @@
+.price-card {
+    width: 19.5vw;
+    margin: 0 auto;
+    margin-bottom: .6vw;
+    padding: 1.3vw;
+    border: .13vw solid #E57E9E;
+    border-radius: 1.6vw;
+    display: grid;
+    grid-template-columns: 13.4vw 6.1vw;
+    grid-template-rows: 3vw 8vw 1.5vw;
+    grid-template-areas:
+        "title time"
+        "text text"
+        "price price";
+}

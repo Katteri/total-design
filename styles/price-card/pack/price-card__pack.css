@@ -1,0 +1,8 @@
+.price-card__pack {
+    grid-area: title;
+    margin: 1.6vw 0 0;
+    text-transform: lowercase;
+    font-size: 1.05vw;
+    font-weight: 200;
+    font-style: italic;
+}

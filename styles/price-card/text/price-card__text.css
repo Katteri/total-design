@@ -1,0 +1,5 @@
+.price-card__text {
+    grid-area: text;
+    font-size: 1.05vw;
+    margin: .65vw 0 0;
+}

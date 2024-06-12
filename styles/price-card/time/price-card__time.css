@@ -1,0 +1,16 @@
+.price-card__time {
+    grid-area: time;
+    margin: 0;
+    margin-bottom: 1vw;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: .7vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #E57E9E;
+    border: .13vw solid #E57E9E;
+    border-radius: 2vw;
+    padding: .5vw;
+}

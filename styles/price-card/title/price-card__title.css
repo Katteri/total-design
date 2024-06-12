@@ -1,0 +1,6 @@
+.price-card__title {
+    grid-area: title;
+    font-size: 1.32vw;
+    text-transform: uppercase;
+    margin: 0;
+}
