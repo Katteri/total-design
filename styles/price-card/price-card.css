@@ -13,3 +13,14 @@
         "text text"
         "price price";
 }
+
+@media screen and (max-width: 1280px) {
+    .price-card:first-of-type {
+        margin-left: 4vw;
+    }
+
+    .price-card:nth-of-type(2n) {
+        margin-left: .8vw;
+        margin-right: .8vw;
+    }
+}
