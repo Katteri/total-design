@@ -1,0 +1,14 @@
+.contacts__request {
+    grid-area: request;
+    margin: 0 auto;
+    width: 25vw;
+    border: .13vw solid #E57E9E;
+    border-radius: 1.6vw;
+    padding: 1vw 1.3vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 8.5vw 3vw;
+    grid-template-areas:
+        "text text"
+        "telegram whatsapp";
+}

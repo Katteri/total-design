@@ -1,7 +1,6 @@
 .button {
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 1.4vw;
     font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -9,7 +8,6 @@
     background-color: #E57E9E;
     border: .13vw solid #E57E9E;
     border-radius: 2vw;
-    padding: .6vw 3.1vw;
 }
 
 .button:hover {

@@ -1,0 +1,12 @@
+.contacts__offer {
+    grid-area: offer;
+    margin: 0 auto;
+    width: 22vw;
+    border: .13vw solid #E57E9E;
+    border-radius: 1.6vw;
+    padding: 1vw 1.3vw;
+    display: grid;
+    grid-template-areas:
+        "digit text"
+        "hour text";
+}

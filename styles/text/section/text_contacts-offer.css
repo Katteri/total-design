@@ -1,0 +1,6 @@
+.text_contacts-offer {
+    grid-area: text;
+    align-self: center;
+    margin: 0;
+    font-size: 1.9vw;
+}

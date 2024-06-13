@@ -1,0 +1,7 @@
+.button_telegram {
+    grid-area: telegram;
+    text-align: center;
+    padding: .5vw;
+    margin: 0 .5vw;
+    font-size: 1.4vw;
+}

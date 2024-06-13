@@ -1,0 +1,8 @@
+.contacts__digit {
+    grid-area: digit;
+    margin: 0;
+    font-size: 6vw;
+    font-weight: 600;
+    line-height: 4.5vw;
+    width: 9vw;
+}

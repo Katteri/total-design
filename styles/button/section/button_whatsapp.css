@@ -1,0 +1,7 @@
+.button_whatsapp {
+    grid-area: whatsapp;
+    text-align: center;
+    padding: .5vw;
+    margin: 0 .5vw;
+    font-size: 1.4vw;
+}

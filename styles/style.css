@@ -41,3 +41,16 @@
 @import url(price-card/text/price-card__text.css);
 @import url(price-card/step/price-card__step.css);
 @import url(price-card/price/price-card__price.css);
+@import url(contacts/contacts.css);
+@import url(title/section/title_contacts.css);
+@import url(contacts/request/contacts__request.css);
+@import url(text/section/text_contacts-request.css);
+@import url(button/section/button_telegram.css);
+@import url(button/section/button_whatsapp.css);
+@import url(contacts/offer/contacts__offer.css);
+@import url(text/section/text_contacts-offer.css);
+@import url(contacts/digit/contacts__digit.css);
+@import url(contacts/hour/contacts__hour.css);
+@import url(contacts/links/contacts__links.css);
+@import url(link/link.css);
+@import url(link/element/link__element.css);
