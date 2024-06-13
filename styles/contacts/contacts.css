@@ -1,7 +1,7 @@
 .contacts {
     width: 61vw;
     margin: 0 auto;
-    padding-bottom: 6.5vw;
+    padding-bottom: 12vw;
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);

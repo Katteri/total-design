@@ -1,7 +1,7 @@
 @import url(normalize.css);
 @import url(page/page.css);
 @import url(header/header.css);
-@import url(header/menu/header__menu.css);
+@import url(menu/__icon/menu__icon.css);
 @import url(intro/intro.css);
 @import url(text/section/text_intro.css);
 @import url(intro/logo/intro__logo.css);
@@ -54,3 +54,6 @@
 @import url(contacts/links/contacts__links.css);
 @import url(link/link.css);
 @import url(link/element/link__element.css);
+@import url(footer/footer.css);
+@import url(footer/logo/footer__logo.css);
+@import url(button/section/button_footer.css);

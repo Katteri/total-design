@@ -11,8 +11,20 @@
 </head>
 <body>
     <div class="page">
-        <header class="header">
-            <img class="header__menu" src="images/header__menu.svg" alt="menu">
+        <header class="header" id="header">
+            <div class="menu">
+                <img class="menu__icon" src="images/header__menu.svg" alt="menu">
+                <div class="">
+                    <p class="text">Навигация</p>
+                    <ul class="text text_list">
+                        <li><a class="link" href="#about">О нас</a></li>
+                        <li><a href="#portfolio">Наши проекты</a></li>
+                        <li><a href="#steps">Этапы работы</a></li>
+                        <li><a href="#service">Услуги</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
         </header>
         <section class="intro">
             <figure>
@@ -20,7 +32,7 @@
                 <p class="text text_intro">Создаем впечатляющий дизайн, воплощаем идеи в вебе!</p>
             </figure>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <h2 class="title title_about">О нас</h2>
             <img class="about__image" src="images/about__image.svg" alt="family photo">
             <div class="text_about">
@@ -43,7 +55,7 @@
             </ol>
             <p class="text text_approach">В целом, дизайн играет важную роль в создании привлекательного и функционального визуального образа, который помогает продавать продукты, решать проблемы и достигать бизнес-целей.</p>
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <h2 class="title title_portfolio">Наши проекты</h2>
             <div class="scroll scroll_portfolio">
                 <img class="scroll__item scroll__item_portfolio" src="images/portfolio/portfolio_1.png" alt="Новая Рублёвочка">
@@ -64,7 +76,7 @@
             <p class="text text_portfolio">Подробнее с портфолио можно ознакомиться тут:</p>
             <a class="button button_portfolio" href="https://www.behance.net/total_design" target="_blank" rel="noopener noreferrer">Behance</a>
         </section>
-        <section class="steps">
+        <section class="steps" id="steps">
             <h2 class="title title_steps">Этапы работы</h2>
             <ol class="text text_list text_steps">
                 <li class="steps__item">Консультация</li>
@@ -75,7 +87,7 @@
             </ol>
             <img class="steps__image" src="images/steps__image.svg" alt="background image">
         </section>
-        <section class="service">
+        <section class="service" id="service">
             <h2 class="title title_service">Услуги</h2>
             <div class="scroll scroll_service">
                 <div class="scroll__item price-card">
@@ -181,11 +193,11 @@
                 </div>
             </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <h2 class="title title_contacts">Контакты</h2>
             <div class="contacts__request">
                 <p class="text text_color-pink text_contacts-request">Вы можете оставить заявку и&nbsp;задать все интересующие Вас&nbsp;вопросы</p>
-                <a class="button button_telegram" href="#" target="_blank" rel="noopener noreferrer">Telegram</a>
+                <a class="button button_telegram" href="https://t.me/totaldsgn" target="_blank" rel="noopener noreferrer">Telegram</a>
                 <a class="button button_whatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
             <div class="contacts__offer">
@@ -197,13 +209,17 @@
                 <a class="link" href="https://www.behance.net/total_design" target="_blank" rel="noopener noreferrer">
                     <img class="link__element" src="images/contacts/behance.svg" alt="Behance">
                 </a>
-                <a class="link" href="#" target="_blank" rel="noopener noreferrer">
+                <a class="link" href="https://pin.it/3bZyTWBGe" target="_blank" rel="noopener noreferrer">
                     <img class="link__element" src="images/contacts/pinterest.svg" alt="Pinterest">
                 </a>
-                <a class="link" href="#" target="_blank" rel="noopener noreferrer">
+                <a class="link" href="https://www.instagram.com/total.dsgn" target="_blank" rel="noopener noreferrer">
                     <img class="link__element" src="images/contacts/instagram.svg" alt="Instagram">
                 </a>
             </div>
         </section>
+        <footer class="footer">
+            <img class="footer__logo" src="images/footer__logo.svg" alt="total design">
+            <a class="button button_footer" href="#header">Вернуться в начало сайта</a>
+        </footer>
     </div>
 </body>
