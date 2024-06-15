@@ -12,19 +12,38 @@
 <body>
     <div class="page">
         <header class="header" id="header">
-            <div class="menu">
+            <!-- <nav class="menu">
                 <img class="menu__icon" src="images/header__menu.svg" alt="menu">
-                <div class="">
+                <div class="menu__dropdown">
                     <p class="text">Навигация</p>
                     <ul class="text text_list">
                         <li><a class="link" href="#about">О нас</a></li>
-                        <li><a href="#portfolio">Наши проекты</a></li>
-                        <li><a href="#steps">Этапы работы</a></li>
-                        <li><a href="#service">Услуги</a></li>
-                        <li><a href="#contacts">Контакты</a></li>
+                        <li><a class="link" href="#portfolio">Наши проекты</a></li>
+                        <li><a class="link" href="#steps">Этапы работы</a></li>
+                        <li><a class="link" href="#service">Услуги</a></li>
+                        <li><a class="link" href="#contacts">Контакты</a></li>
                     </ul>
                 </div>
-            </div>
+            </nav> -->
+
+            <button class="hamburger" popovertarget="menu">
+                <img class="hamburger__icon" src="images/header__menu.svg" alt="menu">
+            </button>
+
+            <nav popover class="menu" id="menu">
+                <button popovertarget="menu" popovertargetaction="hide">
+                    <p class="text menu__title">Навигация</p>
+                </button>
+                
+                <ul class="text text_list text_menu">
+                    <li><a class="link" href="#about">О нас</a></li>
+                    <li><a class="link" href="#portfolio">Наши проекты</a></li>
+                    <li><a class="link" href="#steps">Этапы работы</a></li>
+                    <li><a class="link" href="#service">Услуги</a></li>
+                    <li><a class="link" href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+    
         </header>
         <section class="intro">
             <figure>
@@ -198,7 +217,7 @@
             <div class="contacts__request">
                 <p class="text text_color-pink text_contacts-request">Вы можете оставить заявку и&nbsp;задать все интересующие Вас&nbsp;вопросы</p>
                 <a class="button button_telegram" href="https://t.me/totaldsgn" target="_blank" rel="noopener noreferrer">Telegram</a>
-                <a class="button button_whatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                <a class="button button_whatsapp" href="https://api.whatsapp.com/send?phone=79910566549" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
             <div class="contacts__offer">
                 <p class="text text_color-pink contacts__digit">24</p>
@@ -206,15 +225,9 @@
                 <p class="text text_color-pink text_contacts-offer">И мы отправим коммерческое предложение</p>
             </div>
             <div class="contacts__links">
-                <a class="link" href="https://www.behance.net/total_design" target="_blank" rel="noopener noreferrer">
-                    <img class="link__element" src="images/contacts/behance.svg" alt="Behance">
-                </a>
-                <a class="link" href="https://pin.it/3bZyTWBGe" target="_blank" rel="noopener noreferrer">
-                    <img class="link__element" src="images/contacts/pinterest.svg" alt="Pinterest">
-                </a>
-                <a class="link" href="https://www.instagram.com/total.dsgn" target="_blank" rel="noopener noreferrer">
-                    <img class="link__element" src="images/contacts/instagram.svg" alt="Instagram">
-                </a>
+                <a class="link link_behance" href="https://www.behance.net/total_design" target="_blank" rel="noopener noreferrer"></a>
+                <a class="link link_pinterest" href="https://pin.it/3bZyTWBGe" target="_blank" rel="noopener noreferrer"></a>
+                <a class="link link_instagram" href="https://www.instagram.com/total.dsgn" target="_blank" rel="noopener noreferrer"></a>
             </div>
         </section>
         <footer class="footer">

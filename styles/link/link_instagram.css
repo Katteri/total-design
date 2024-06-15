@@ -1,0 +1,12 @@
+.link_instagram {
+    background-image: url("../../images/contacts/instagram.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.link_instagram:hover {
+    background-image: url("../../images/contacts/instagram_hover.svg");
+    transition: background-image .5s;
+}

@@ -1,7 +1,11 @@
 @import url(normalize.css);
 @import url(page/page.css);
 @import url(header/header.css);
-@import url(menu/__icon/menu__icon.css);
+@import url(hamburger/hamburger.css);
+@import url(hamburger/__icon/hamburger__icon.css);
+@import url(menu/menu.css);
+@import url(menu/__title/menu__title.css);
+@import url(text/section/text_menu.css);
 @import url(intro/intro.css);
 @import url(text/section/text_intro.css);
 @import url(intro/logo/intro__logo.css);
@@ -53,7 +57,9 @@
 @import url(contacts/hour/contacts__hour.css);
 @import url(contacts/links/contacts__links.css);
 @import url(link/link.css);
-@import url(link/element/link__element.css);
+@import url(link/link_behance.css);
+@import url(link/link_pinterest.css);
+@import url(link/link_instagram.css);
 @import url(footer/footer.css);
 @import url(footer/logo/footer__logo.css);
 @import url(button/section/button_footer.css);

@@ -1,0 +1,12 @@
+.link_pinterest {
+    background-image: url("../../images/contacts/pinterest.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.link_pinterest:hover {
+    background-image: url("../../images/contacts/pinterest_hover.svg");
+    transition: background-image .5s;
+}
