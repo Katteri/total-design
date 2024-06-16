@@ -1,8 +1,7 @@
 .menu {
-    border: none;
-    background-color: #FFE3F3;
-    padding: 1vw;
-    left: auto;
-    bottom: auto;
-    height: 100vw;
+    display: inline-block;
+}
+
+.menu:hover .menu__dropdown{
+    display: block;
 }

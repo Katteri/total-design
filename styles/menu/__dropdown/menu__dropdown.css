@@ -1,0 +1,9 @@
+.menu__dropdown{
+    background-color: #FFE3F3;
+    position: absolute;
+    top: 4.7vw;
+    height: 22vw;
+    width: 14vw;
+    display: none;
+    padding: 1.5vw;
+}
