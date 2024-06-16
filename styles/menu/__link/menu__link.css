@@ -1,0 +1,9 @@
+.menu__link {
+    color: #128159;
+    transition: color .5s ease-in;
+}
+
+.menu__dropdown .menu__link:hover{
+    color: #E57E9E;
+    transition: color .2s ease-in;
+}
