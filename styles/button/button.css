@@ -8,10 +8,11 @@
     background-color: #E57E9E;
     border: .13vw solid #E57E9E;
     border-radius: 2vw;
+    transition: background-color .5s ease-in;
 }
 
 .button:hover {
     color: #E57E9E;
     background-color: #FFFFFF;
-    transition: background-color .5s;
+    transition: background-color .2s ease-in;
 }

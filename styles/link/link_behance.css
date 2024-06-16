@@ -4,9 +4,10 @@
     background-repeat: no-repeat;
     width: 3.5vw;
     height: 3.5vw;
+    transition: background-image .5s ease-in;
 }
 
 .link_behance:hover {
     background-image: url("../../images/contacts/behance_hover.svg");
-    transition: background-image .5s;
+    transition: background-image .2s ease-in;
 }

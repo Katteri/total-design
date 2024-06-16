@@ -1,6 +1,6 @@
 .text_menu {
     margin: 0;
-    font-size: 1.7vw;
+    font-size: 1.43vw;
     display: grid;
     grid-template-rows: repeat(5, 2vw);
     gap: 2vw;
