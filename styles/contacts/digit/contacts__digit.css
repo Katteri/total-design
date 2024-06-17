@@ -6,3 +6,10 @@
     line-height: 4.5vw;
     width: 9vw;
 }
+
+@media screen and (max-width: 1280px) {
+    .contacts__digit {
+        font-size: 7.5vw;
+        line-height: 7vw;
+    }
+}

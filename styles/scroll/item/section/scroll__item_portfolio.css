@@ -10,3 +10,18 @@
 .scroll__item_portfolio:nth-of-type(2n) {
     margin: 0 .8vw;
 }
+
+@media screen and (max-width: 1280px) {
+    .scroll__item_portfolio {
+        height: 41.2vw;
+        border-radius: 5vw;
+    }
+
+    .scroll__item_portfolio:first-of-type {
+        margin-left: 7.5vw;
+    }
+
+    .scroll__item_portfolio:nth-of-type(2n) {
+        margin: 0 1.7vw;
+    }
+}

@@ -6,3 +6,10 @@
     font-weight: 200;
     font-style: italic;
 }
+
+@media screen and (max-width: 1280px) {
+    .price-card__pack {
+        font-size: 2.4vw;
+        margin-top: 3.5vw;
+    }
+}

@@ -5,3 +5,12 @@
     border: .13vw solid #E57E9E;
     border-radius: 2vw;
 }
+
+@media screen and (max-width: 1280px) {
+    .approach {
+        width: 78vw;
+        border: .3vw solid #E57E9E;
+        border-radius: 5vw;
+        padding: 7vw 4vw 5vw;
+    }
+}

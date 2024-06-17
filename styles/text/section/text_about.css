@@ -3,3 +3,12 @@
     padding-left: 2vw;
     font-size: .91vw;
 }
+
+@media screen and (max-width: 1280px) {
+    .text_about {
+        font-size: 1.54vw;
+        padding-left: 5.6vw;
+        padding-top: 4.6vw;
+        line-height: 2vw;
+    }
+}

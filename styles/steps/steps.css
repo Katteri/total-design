@@ -9,3 +9,11 @@
         "title img"
         "text img";
 }
+
+@media screen and (max-width: 1280px) {
+    .steps {
+        width: 80vw;
+        grid-template-rows: 11.3vw 1fr;
+        padding-bottom: 14vw;
+    }
+}

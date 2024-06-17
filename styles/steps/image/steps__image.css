@@ -2,3 +2,9 @@
     width: 37vw;
     grid-area: img;
 }
+
+@media screen and (max-width: 1280px) {
+    .steps__image {
+        width: 54vw;
+    }
+}

@@ -5,3 +5,9 @@
 .price-card__step:first-of-type {
     margin: 0;
 }
+
+@media screen and (max-width: 1280px) {
+    .price-card__step {
+        margin-top: 1vw;
+    }
+}

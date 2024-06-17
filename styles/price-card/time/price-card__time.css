@@ -14,3 +14,12 @@
     border-radius: 2vw;
     padding: .5vw;
 }
+
+@media screen and (max-width: 1280px) {
+    .price-card__time {
+        margin-bottom: 3.2vw;
+        font-size: 1.7vw;
+        border: .3vw solid #E57E9E;
+        border-radius: 5vw;
+    }
+}

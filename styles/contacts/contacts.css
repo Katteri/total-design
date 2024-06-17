@@ -11,3 +11,11 @@
         "request offer"
         "request links";
 }
+
+@media screen and (max-width: 1280px) {
+    .contacts {
+        width: 80vw;
+        grid-template-rows: 8vw 18.5vw 6vw;
+        padding-bottom: 10.5vw;
+    }
+}

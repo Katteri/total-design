@@ -2,3 +2,9 @@
     text-transform: none;
     margin-bottom: 2.4vw;
 }
+
+@media screen and (max-width: 1280px) {
+    .title_approach {
+        margin-bottom: 6vw;
+    }
+}

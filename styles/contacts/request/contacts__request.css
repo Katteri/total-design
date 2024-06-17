@@ -12,3 +12,15 @@
         "text text"
         "telegram whatsapp";
 }
+
+@media screen and (max-width: 1280px) {
+    .contacts__request {
+        width: 36vw;
+        border: .3vw solid #E57E9E;
+        border-radius: 4vw;
+        padding: 3vw 1.3vw;
+        grid-template-rows: 13.5vw 5.5vw;
+        position: relative;
+        left: -2vw;
+    }
+}

@@ -5,3 +5,9 @@
 .steps__item:first-of-type {
     margin-top: 4.5vw;
 }
+
+@media screen and (max-width: 1280px) {
+    .steps__item {
+        margin: 5.6vw 0;
+    }
+}

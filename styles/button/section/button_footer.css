@@ -2,3 +2,10 @@
     font-size: 1.6vw;
     padding: .8vw 2vw;
 }
+
+@media screen and (max-width: 1280px) {
+    .button_footer {
+        font-size: 2vw;
+        padding: 1.3vw 3vw;
+    }
+}

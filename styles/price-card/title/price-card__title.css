@@ -4,3 +4,9 @@
     text-transform: uppercase;
     margin: 0;
 }
+
+@media screen and (max-width: 1280px) {
+    .price-card__title {
+        font-size: 3vw;
+    }
+}

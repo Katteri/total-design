@@ -11,3 +11,10 @@
     background-image: url("../../images/contacts/pinterest_hover.svg");
     transition: background-image .2s ease-in;
 }
+
+@media screen and (max-width: 1280px) {
+    .link_pinterest {
+        width: 6vw;
+        height: 6vw;
+    }
+}

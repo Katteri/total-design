@@ -2,3 +2,10 @@
     margin: 0 0 2vw;
     font-size: 1.43vw;
 }
+
+@media screen and (max-width: 1280px) {
+    .menu__title {
+        font-size: 2.3vw;
+        margin-bottom: 3vw;
+    }
+}

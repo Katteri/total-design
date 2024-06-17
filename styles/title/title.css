@@ -8,3 +8,9 @@
     letter-spacing: -0.05vw;
     color: #E57E9E;
 }
+
+@media screen and (max-width: 1280px) {
+    .title {
+        font-size: 3.5vw;
+    }
+}

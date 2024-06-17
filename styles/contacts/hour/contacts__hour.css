@@ -1,11 +1,18 @@
 .contacts__hour {
     grid-area: hour;
     margin: 0;
-    margin-top: .5VW;
+    margin-top: .5vw;
     text-transform: uppercase;
     text-align: center;
     font-size: 2.2vw;
     line-height: 2vw;
     font-weight: 600;
     width: 7vw;
+}
+
+@media screen and (max-width: 1280px) {
+    .contacts__hour {
+        font-size: 3vw;
+        margin-left: .5vw;
+    }
 }

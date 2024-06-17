@@ -3,3 +3,10 @@
     margin-bottom: .5vw;
     padding-left: 2.2vw;
 }
+
+@media screen and (max-width: 1280px) {
+    .intro__logo {
+        width: 69vw;
+        padding-top: 4vw;
+    }
+}

@@ -3,3 +3,9 @@
     margin: 0;
     font-size: 1.35vw;
 }
+
+@media screen and (max-width: 1280px) {
+    .text_steps {
+        font-size: 2.2vw;
+    }
+}

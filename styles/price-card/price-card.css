@@ -15,12 +15,21 @@
 }
 
 @media screen and (max-width: 1280px) {
+    .price-card {
+        width: 44.6vw;
+        padding: 3vw;
+        border: .3vw solid #E57E9E;
+        border-radius: 5vw;
+        grid-template-columns: 31vw 14vw;
+        grid-template-rows: 7vw 20vw 2.5vw;
+    }
+
     .price-card:first-of-type {
-        margin-left: 4vw;
+        margin-left: 7.4vw;
     }
 
     .price-card:nth-of-type(2n) {
-        margin-left: .8vw;
-        margin-right: .8vw;
+        margin-left: 1.3vw;
+        margin-right: 1.3vw;
     }
 }

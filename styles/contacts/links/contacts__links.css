@@ -7,3 +7,10 @@
     align-items: baseline;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 1280px) {
+    .contacts__links {
+        margin-top: 0;
+        width: 26vw;
+    }
+}

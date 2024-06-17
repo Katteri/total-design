@@ -7,3 +7,11 @@
     display: none;
     padding: 1.5vw;
 }
+
+@media screen and (max-width: 1280px) {
+    .menu__dropdown {
+        right: 2vw;
+        width: 22vw;
+        height: 35vw;
+    }
+}

@@ -9,9 +9,10 @@
 @media screen and (max-width: 1280px) {
     .scroll_service {
         flex-wrap: nowrap;
-        height: 15.5vw;
+        height: 37vw;
         width: 100vw;
-        left: -4.1vw;
+        left: -9.1vw;
         position: relative;;
+        padding-bottom: 14vw;
     }
 }

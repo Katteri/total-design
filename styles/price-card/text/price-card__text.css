@@ -3,3 +3,10 @@
     font-size: 1.05vw;
     margin: .65vw 0 0;
 }
+
+@media screen and (max-width: 1280px) {
+    .price-card__text {
+        font-size: 2.4vw;
+        margin-top: 1.3vw;
+    }
+}

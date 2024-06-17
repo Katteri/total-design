@@ -1,4 +1,10 @@
 .title_contacts {
-    margin-bottom: 2vw;
     grid-area: title;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 1280px) {
+    .title_contacts {
+        padding-bottom: 0;
+    }
 }

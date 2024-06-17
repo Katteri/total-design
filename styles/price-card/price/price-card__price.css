@@ -4,3 +4,9 @@
     margin: 0;
     align-self: end;
 }
+
+@media screen and (max-width: 1280px) {
+    .price-card__price {
+        font-size: 2.5vw;
+    }
+}

@@ -10,3 +10,16 @@
         "digit text"
         "hour text";
 }
+
+@media screen and (max-width: 1280px) {
+    .contacts__offer {
+        align-self: flex-start;
+        width: 32.8vw;
+        position: relative;
+        left: 1vw;
+        border: .3vw solid #E57E9E;
+        border-radius: 4vw;
+        padding: 2.5vw 4vw;
+        grid-template-columns: 12.5vw 20vw;
+    }
+}
