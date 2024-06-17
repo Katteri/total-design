@@ -12,3 +12,10 @@
         height: 41.2vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .scroll_portfolio {
+        margin-bottom: 9vw;
+        height: 43.5vw;
+    }
+}

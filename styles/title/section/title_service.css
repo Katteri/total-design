@@ -7,3 +7,9 @@
         margin-bottom: 6vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .title_service {
+        margin-bottom: 4.5vw;
+    }
+}

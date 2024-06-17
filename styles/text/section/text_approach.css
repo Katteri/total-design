@@ -14,3 +14,12 @@
         gap: 2vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .text_approach {
+        font-size: 3.8vw;
+        line-height: 5vw;
+        margin: 5.5vw 0;
+        gap: 5.5vw;
+    }
+}

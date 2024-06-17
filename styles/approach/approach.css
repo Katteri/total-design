@@ -14,3 +14,10 @@
         padding: 7vw 4vw 5vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .approach {
+        padding: 5.1vw 4.5vw 0;
+        border-radius: 7vw;
+    }
+}

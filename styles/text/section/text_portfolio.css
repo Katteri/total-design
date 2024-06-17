@@ -9,3 +9,9 @@
         font-size: 3.5vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .text_portfolio {
+        font-size: 3.9vw;
+    }
+}

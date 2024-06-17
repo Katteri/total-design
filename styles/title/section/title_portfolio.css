@@ -7,3 +7,8 @@
         margin: 14vw 0 0 3.5vw;
     }
 }
+@media screen and (max-width: 431px) {
+    .title_portfolio {
+        margin: 7vw 0 0 0;
+    }
+}

@@ -13,3 +13,10 @@
         gap: 3vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .text_menu {
+        font-size: 3.2vw;
+        gap: 6vw; 
+    }
+}

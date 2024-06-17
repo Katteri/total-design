@@ -9,3 +9,9 @@
         font-size: 2.2vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .text_steps {
+        font-size: 3.2vw;
+    }
+}

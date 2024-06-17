@@ -14,3 +14,9 @@
         font-size: 3.5vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .title {
+        font-size: 4.4vw;
+    }
+}

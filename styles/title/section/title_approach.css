@@ -8,3 +8,9 @@
         margin-bottom: 6vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .title_approach {
+        margin-bottom: 0;
+    }
+}

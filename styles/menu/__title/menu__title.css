@@ -9,3 +9,10 @@
         margin-bottom: 3vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .menu__title {
+        font-size: 3.2vw;
+        margin-bottom: 6vw;
+    }
+}

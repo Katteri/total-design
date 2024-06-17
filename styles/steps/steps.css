@@ -17,3 +17,10 @@
         padding-bottom: 14vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .steps {
+        width: 90vw;
+        grid-template-columns: 40vw 1fr;
+    }
+}

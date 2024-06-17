@@ -10,3 +10,10 @@
         padding-top: 4vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .intro__logo {
+        width: 80vw;
+        padding-top: 0;
+    }
+}

@@ -12,3 +12,9 @@
         width: 90vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .intro {
+        padding-bottom: 6vw;
+    }
+}

@@ -8,3 +8,9 @@
         margin-left: 6vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .title_about {
+        margin-left: 0;
+    }
+}

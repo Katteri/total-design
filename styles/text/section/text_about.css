@@ -12,3 +12,11 @@
         line-height: 2vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .text_about {
+        font-size: 2.8vw;
+        padding: .7vw 0 0;
+        line-height: 4.1vw;
+    }
+}

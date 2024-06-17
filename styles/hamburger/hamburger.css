@@ -2,3 +2,8 @@
     width: 5.26vw;
 }
 
+@media screen and (max-width: 431px) {
+    .hamburger {
+        width: 7.26vw;
+    }
+}

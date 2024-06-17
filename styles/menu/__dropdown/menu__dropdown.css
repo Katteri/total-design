@@ -15,3 +15,11 @@
         height: 35vw;
     }
 }
+
+@media screen and (max-width: 431px) {
+    .menu__dropdown {
+        width: 30vw;
+        height: 54vw;
+        padding: 2vw;
+    }
+}

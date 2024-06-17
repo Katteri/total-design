@@ -25,3 +25,14 @@
         margin: 0 1.7vw;
     }
 }
+
+
+@media screen and (max-width: 431px) {
+    .scroll__item_portfolio {
+        height: 43.5vw;
+    }
+
+    .scroll__item_portfolio:first-of-type {
+        margin-left: 6vw;
+    }
+}
