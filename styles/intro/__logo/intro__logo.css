@@ -2,6 +2,16 @@
     width: 43.5vw;
     margin-bottom: .5vw;
     padding-left: 2.2vw;
+    animation: logo-move linear 8s infinite;
+}
+
+@keyframes logo-move {
+	25% {
+		transform: translate(0, 2vw);
+	}
+	75% {
+		transform: translate(0, -3vw);
+	}
 }
 
 @media screen and (max-width: 1280px) {
