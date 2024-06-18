@@ -6,6 +6,7 @@
     width: 14vw;
     display: none;
     padding: 1.5vw;
+    z-index: 1;
 }
 
 @media screen and (max-width: 1280px) {
