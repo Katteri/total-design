@@ -14,5 +14,16 @@
     .contacts__hour {
         font-size: 3vw;
         margin-left: .5vw;
+        width: 9vw; 
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .contacts__hour {
+        font-size: 5vw;
+        line-height: 5vw;
+        width: 14vw;
+        margin-left: -.5vw;
+        justify-self: center;
     }
 }

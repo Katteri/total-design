@@ -2,6 +2,7 @@
     grid-area: offer;
     margin: 0 auto;
     width: 22vw;
+    align-self: self-start;
     border: .13vw solid #E57E9E;
     border-radius: 1.6vw;
     padding: 1vw 1.3vw;
@@ -21,5 +22,14 @@
         border-radius: 4vw;
         padding: 2.5vw 4vw;
         grid-template-columns: 12.5vw 20vw;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .contacts__offer {
+        position: static;
+        width: 58vw;
+        grid-template-columns: 25vw 33vw;
+        grid-template-rows: 12vw 5vw;
     }
 }

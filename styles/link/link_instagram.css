@@ -1,20 +1,27 @@
 .link_instagram {
-    background-image: url("../../images/contacts/instagram.svg");
+    background-image: url("../../images/contacts/instagram.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 3.5vw;
-    height: 3.5vw;
+    width: 4vw;
+    height: 4vw;
     transition: background-image .5s ease-in;
 }
 
 .link_instagram:hover {
-    background-image: url("../../images/contacts/instagram_hover.svg");
+    background-image: url("../../images/contacts/instagram_hover.png");
     transition: background-image .2s ease-in;
 }
 
 @media screen and (max-width: 1280px) {
     .link_instagram {
-        width: 6vw;
+        width: 6.5vw;
         height: 6vw;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .link_instagram {
+        width: 10vw;
+        height: 10vw;
     }
 }

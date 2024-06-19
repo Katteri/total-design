@@ -1,14 +1,21 @@
 .button_telegram {
     grid-area: telegram;
     text-align: center;
-    padding: .5vw;
-    margin: 0 .5vw;
-    font-size: 1.4vw;
+    padding: .7vw;
+    margin: 0 1vw 1vw;
+    font-size: 1.7vw;
 }
 
 @media screen and (max-width: 1280px) {
     .button_telegram {
         font-size: 2.3vw;
-        padding: 1vw;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .button_telegram {
+        font-size: 2.6vw;
+        padding: 1.5vw;
+        margin: 0 2vw;
     }
 }

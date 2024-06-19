@@ -1,16 +1,22 @@
 .contacts__links {
     grid-area: links;
-    margin: 2vw auto 0;
-    width: 15vw;
+    margin: 0 auto;
+    width: 23vw;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-self: self-end;
 }
 
 @media screen and (max-width: 1280px) {
     .contacts__links {
         margin-top: 0;
-        width: 26vw;
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .contacts__links {
+        width: 65vw;
     }
 }

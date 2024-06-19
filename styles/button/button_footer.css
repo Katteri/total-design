@@ -9,3 +9,10 @@
         padding: 1.3vw 3vw;
     }
 }
+
+
+@media screen and (max-width: 431px) {
+    .button_footer {
+        font-size: 3vw;
+    }
+}

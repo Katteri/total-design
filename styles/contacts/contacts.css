@@ -1,11 +1,11 @@
 .contacts {
     width: 61vw;
     margin: 0 auto;
-    padding-bottom: 12vw;
+    padding-bottom: 10vw;
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 4vw 9.5vw 4vw;
+    grid-template-rows: 4vw 9vw 5.5vw;
     grid-template-areas:
         "title title"
         "request offer"
@@ -15,7 +15,7 @@
 @media screen and (max-width: 1280px) {
     .contacts {
         width: 80vw;
-        grid-template-rows: 8vw 18.5vw 6vw;
+        grid-template-rows: 8vw 19.5vw 6vw;
         padding-bottom: 10.5vw;
     }
 }
@@ -23,5 +23,13 @@
 @media screen and (max-width: 431px) {
     .contacts {
         width: 90vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vw 28vw 26.5vw 10vw;
+        grid-template-areas:
+            "title"
+            "request"
+            "offer"
+            "links";
+        padding-bottom: 17vw;
     }
 }

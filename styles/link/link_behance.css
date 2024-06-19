@@ -1,14 +1,14 @@
 .link_behance {
-    background-image: url("../../images/contacts/behance.svg");
+    background-image: url("../../images/contacts/behance.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 4vw;
-    height: 3.5vw;
+    width: 4.2vw;
+    height: 4vw;
     transition: background-image .5s ease-in;
 }
 
 .link_behance:hover {
-    background-image: url("../../images/contacts/behance_hover.svg");
+    background-image: url("../../images/contacts/behance_hover.png");
     transition: background-image .2s ease-in;
 }
 
@@ -16,5 +16,12 @@
     .link_behance {
         width: 6.5vw;
         height: 6vw;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .link_behance {
+        width: 10.5vw;
+        height: 10vw;
     }
 }

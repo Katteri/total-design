@@ -2,12 +2,13 @@
     grid-area: request;
     margin: 0 auto;
     width: 25vw;
+    align-self: self-start;
     border: .13vw solid #E57E9E;
     border-radius: 1.6vw;
     padding: 1vw 1.3vw;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 8.5vw 3vw;
+    grid-template-rows: 7.5vw 5vw;
+    grid-template-columns: repeat(2, 12.5vw);
     grid-template-areas:
         "text text"
         "telegram whatsapp";
@@ -18,9 +19,27 @@
         width: 36vw;
         border: .3vw solid #E57E9E;
         border-radius: 4vw;
-        padding: 3vw 1.3vw;
-        grid-template-rows: 13.5vw 5.5vw;
+        padding: 2vw 1.5vw .2vw;
+        grid-template-rows: 12vw repeat(2, 5.5vw);
+        grid-template-columns: 36vw;
+        grid-template-areas:
+            "text"
+            "telegram"
+            "whatsapp";
         position: relative;
         left: -2vw;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .contacts__request {
+        width: 63vw;
+        position: static;
+        padding: 2vw 1.3vw;
+        grid-template-rows: 13vw 6.5vw;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "text text"
+            "telegram whatsapp";
     }
 }
