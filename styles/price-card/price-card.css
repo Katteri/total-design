@@ -32,6 +32,10 @@
         margin-left: 1.3vw;
         margin-right: 1.3vw;
     }
+
+    .price-card:last-of-type {
+        margin-right: 1vw;
+    }
 }
 
 @media screen and (max-width: 431px) {

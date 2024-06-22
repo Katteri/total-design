@@ -1,0 +1,17 @@
+.text_email {
+    font-size: 1.05vw;
+    margin: 2vw 0 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .text_email {
+        font-size: 1.8vw;
+        margin-top: 4.2vw;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .text_email {
+        font-size: 2.8vw;
+    }
+}
