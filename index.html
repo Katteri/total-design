@@ -222,4 +222,18 @@
             <p class="text text_email">Контактная почта:<br>totaldesign@list.ru</p>
         </footer>
     </div>
+    <script>
+
+        let scroll = document.querySelector('.scroll');
+        let scroll__item = document.querySelector('.scroll__item');
+
+        scroll.addEventListener('wheel', event => {
+            event.preventDefault()
+            if (event.deltaY > 0) {
+                event.currentTarget.scrollLeft += event.currentTarget.clientWidth / 2;
+            } else {
+                event.currentTarget.scrollLeft -= event.currentTarget.clientWidth / 2;
+            }
+        });
+    </script>
 </body>

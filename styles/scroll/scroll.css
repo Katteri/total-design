@@ -2,11 +2,12 @@
     padding: 0;
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: auto;
+    overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
     scrollbar-width: none;
 }
 
 .scroll::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
+    display: none;  /*Safari and Chrome */
 }
