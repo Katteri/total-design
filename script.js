@@ -1,27 +1,17 @@
-let mouseDown = false;
-let startX, scrollLeft;
-const slider = document.querySelector('.scroll');
+let scroll = document.querySelector('.scroll');
 
-const startDragging = (e) => {
-  mouseDown = true;
-  startX = e.pageX - slider.offsetLeft;
-  scrollLeft = slider.scrollLeft;
+function isTrackPad(e) {
+    return e.wheelDeltaY ? e.wheelDeltaY === -3 * e.deltaY : e.deltaMode === 0
 }
 
-const stopDragging = (e) => {
-  mouseDown = false;
-}
+scroll.addEventListener('wheel', event => {
+    if (!isTrackPad(event)) {
+        event.preventDefault()
+    };
 
-const move = (e) => {
-  e.preventDefault();
-  if(!mouseDown) { return; }
-  const x = e.pageX - slider.offsetLeft;
-  const scroll = x - startX;
-  slider.scrollLeft = scrollLeft - scroll;
-}
-
-// Add the event listeners
-slider.addEventListener('mousemove', move, false);
-slider.addEventListener('mousedown', startDragging, false);
-slider.addEventListener('mouseup', stopDragging, false);
-slider.addEventListener('mouseleave', stopDragging, false);
+    if (event.deltaY > 0) {
+        event.currentTarget.scrollLeft += event.currentTarget.clientWidth / 2;
+    } else {
+        event.currentTarget.scrollLeft -= event.currentTarget.clientWidth / 2;
+    }
+});
