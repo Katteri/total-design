@@ -1,0 +1,20 @@
+.text_header {
+  color: #E57E9E;
+  font-size: 1.95vw;
+  margin: 0;
+  grid-area: title;
+  align-self: start;
+}
+
+
+@media screen and (max-width: 431px) {
+  .text_header {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .text_header {
+    font-size: 1.4vw;
+  }
+}

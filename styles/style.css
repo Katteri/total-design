@@ -1,6 +1,10 @@
 @import url(normalize.css);
 @import url(page/page.css);
+@import url(text/text.css);
 @import url(header/header.css);
+@import url(header/header__contact.css);
+@import url(button/button_header.css);
+@import url(text/text_header.css);
 @import url(hamburger/hamburger.css);
 @import url(hamburger/__icon/hamburger__icon.css);
 @import url(menu/menu.css);
@@ -16,7 +20,6 @@
 @import url(title/title_about.css);
 @import url(about/__image/about__image.css);
 @import url(text/text_about.css);
-@import url(text/text.css);
 @import url(text/_color/text_color-pink.css);
 @import url(approach/approach.css);
 @import url(title/title_approach.css);
@@ -66,4 +69,3 @@
 @import url(footer/footer.css);
 @import url(footer/__logo/footer__logo.css);
 @import url(button/button_footer.css);
-@import url(text/text_email.css);

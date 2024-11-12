@@ -1,0 +1,37 @@
+.button_header {
+  text-align: center;
+  padding: .5vw 1.5vw .3vw;
+  margin: 0 1vw;
+  height: 2vw;
+  font-size: 1.5vw;
+}
+
+.button_header:first-of-type {
+  grid-area: telegram;
+  margin-left: 0;
+}
+
+.button_header:nth-of-type(2) {
+  grid-area: whatsup;
+}
+
+.button_header:last-of-type {
+  grid-area: email;
+  margin-right: 0;
+}
+
+
+@media screen and (max-width: 431px) {
+  .button_header {
+    height: 5vw;
+    padding: 1.8vw 1.5vw .5vw;
+    font-size: 2.8vw;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .button_header {
+    font-size: 1.3vw;
+    padding: .4vw 1.5vw .2vw;
+  }
+}

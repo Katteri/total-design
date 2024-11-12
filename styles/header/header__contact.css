@@ -1,0 +1,32 @@
+.header__contact {
+  height: 9vw;
+  width: 38vw;
+  margin-left: 9vw;
+  display: grid;
+  grid-template-columns: 10vw 12vw 16vw;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: 
+    "title title title"
+    "telegram whatsup email";
+  align-items: center;
+}
+
+
+@media screen and (max-width: 431px) {
+  .header__contact {
+    height: 20vw;
+    width: 70vw;
+    margin-left: 0;
+    grid-template-columns: 1fr 1.5fr 2fr;
+    grid-template-rows: 6vw 14vw;
+    align-items: start;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header__contact {
+    height: 12vw;
+    grid-template-rows: 2vw 5vw;
+    margin-left: 3.4vw;
+  }
+}
