@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 431px) {
   .button_header {
-    height: 5vw;
+    height: 4.5vw;
     padding: 1.8vw 1.5vw .5vw;
     font-size: 2.8vw;
   }
@@ -32,6 +32,6 @@
 @media screen and (min-width: 1280px) {
   .button_header {
     font-size: 1.3vw;
-    padding: .4vw 1.5vw .2vw;
+    padding: .7vw 1.5vw .2vw;
   }
 }
