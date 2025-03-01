@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const scrollContainers = document.querySelectorAll(".scroll_portfolio");
-    const serviceScrollContainer = document.querySelector(".scroll_service");
+    const scrollContainers = document.querySelectorAll(".scroll_portfolio, .scroll_service");
 
     scrollContainers.forEach(scrollContainer => {
         let isDown = false;
@@ -56,14 +55,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Enable horizontal scroll for .scroll_service only on mobile
-    if (serviceScrollContainer) {
+    if (scrollContainers) {
         function updateScrollBehavior() {
             if (window.innerWidth <= 1280) {
-                serviceScrollContainer.style.overflowX = "auto";
-                serviceScrollContainer.style.scrollSnapType = "x mandatory";
+                scrollContainers.style.overflowX = "auto";
+                scrollContainers.style.scrollSnapType = "x mandatory";
             } else {
-                serviceScrollContainer.style.overflowX = "visible";
-                serviceScrollContainer.style.scrollSnapType = "none";
+                scrollContainers.style.overflowX = "visible";
+                scrollContainers.style.scrollSnapType = "none";
             }
         }
 
